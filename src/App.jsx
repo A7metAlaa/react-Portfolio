@@ -5,7 +5,6 @@ import Home from './Components/Home/Home'
  
 import Portfolio from './Components/Portfolio/Portfolio'
 import Contact from './Components/Contact/Contact'
-import Products from './Components/Products/Products'
 
 let paths= createBrowserRouter([
    {path:'',element:<Layout/>,children:[
