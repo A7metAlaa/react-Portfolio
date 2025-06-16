@@ -5,7 +5,6 @@ import Home from './Components/Home/Home'
  
 import Portfolio from './Components/Portfolio/Portfolio'
 import Contact from './Components/Contact/Contact'
-import Products from './Components/Products/Products'
 
 let paths= createBrowserRouter([
    {path:'',element:<Layout/>,children:[
@@ -13,7 +12,6 @@ let paths= createBrowserRouter([
     {path:'Portfolio' , element:<Portfolio/>},
     {path:'about' , element:<About/>},
     {path:'Contact' , element:<Contact/>},
-    {path:'products' , element:<Products/>},
     {path:'*' , element:<h2> not exist </h2>},
   ]}
 ])
