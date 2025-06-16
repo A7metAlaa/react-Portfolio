@@ -12,7 +12,6 @@ let paths= createBrowserRouter([
     {path:'Portfolio' , element:<Portfolio/>},
     {path:'about' , element:<About/>},
     {path:'Contact' , element:<Contact/>},
-    {path:'products' , element:<Products/>},
     {path:'*' , element:<h2> not exist </h2>},
   ]}
 ])
