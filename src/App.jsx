@@ -1,6 +1,10 @@
 import { BrowserRouter, createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Layout from './Components/Layout/Layout'
+<<<<<<< HEAD
 import About from './Components/About/About'
+=======
+ import About from './Components/About/About'
+>>>>>>> 879973fd80c32ea996afbc176786a55d72320882
 import Home from './Components/Home/Home'
  
 import Portfolio from './Components/Portfolio/Portfolio'
