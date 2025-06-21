@@ -7,7 +7,7 @@ import Portfolio from './Components/Portfolio/Portfolio'
 import Contact from './Components/Contact/Contact'
 
 let paths= createBrowserRouter([
-   {path:'',element:<Layout/>,children:[
+    {path:'/',element:<Layout/>,children:[
     {index:'true' , element:<Home/>},
     {path:'Portfolio' , element:<Portfolio/>},
     {path:'about' , element:<About/>},
